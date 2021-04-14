@@ -228,7 +228,9 @@ section .content .second .all button a {
     color: #728391;
 }
 
+/* card */
 section .content .card1 {
+    display: flex;
     margin-top: 30px;
     width: 940px;
     height: 367px;
@@ -239,6 +241,7 @@ section .content .card1 {
 }
 
 section .content .card2 {
+    display: flex;
     margin-top: 30px;
     width: 940px;
     height: 367px;
@@ -249,6 +252,7 @@ section .content .card2 {
 }
 
 section .content .card3 {
+    display: flex;
     margin-top: 30px;
     width: 940px;
     height: 367px;
@@ -259,7 +263,7 @@ section .content .card3 {
 }
 
 section .content .card1 img {
-    height: 200px;
+    height: 250px;
     margin-top: 25px;
     margin-left: 25px;
     box-shadow: 0px 5px 10px #01368619;
@@ -267,7 +271,7 @@ section .content .card1 img {
 }
 
 section .content .card2 img {
-    height: 200px;
+    height: 250px;
     margin-top: 25px;
     margin-left: 25px;
     box-shadow: 0px 5px 10px #01368619;
@@ -275,9 +279,226 @@ section .content .card2 img {
 }
 
 section .content .card3 img {
-    height: 200px;
+    height: 250px;
     margin-top: 25px;
     margin-left: 25px;
     box-shadow: 0px 5px 10px #01368619;
     opacity: 1;
+}
+
+section .content .card1 .subcard1 {
+    padding: 25px 25px;
+}
+
+section .content .card2 .subcard2 {
+    padding: 25px 25px;
+}
+
+section .content .card3 .subcard3 {
+    padding: 25px 25px;
+}
+
+section .content .card1 .subcard1 .heading h4 {
+    color: #728391;
+    font-size: 12px;
+}
+
+section .content .card2 .subcard2 .heading h4 {
+    color: #728391;
+    font-size: 12px;
+}
+
+section .content .card3 .subcard3 .heading h4 {
+    color: #728391;
+    font-size: 12px;
+}
+
+section .content .card1 .subcard1 .title p {
+    margin-top: 10px;
+    font-size: 21px;
+    color: #1000A9;
+}
+
+section .content .card2 .subcard2 .title p {
+    margin-top: 10px;
+    font-size: 21px;
+    color: #1000A9;
+}
+
+section .content .card3 .subcard3 .title p {
+    margin-top: 10px;
+    font-size: 21px;
+    color: #1000A9;
+}
+
+section .content .card1 .subcard1 .time-date p {
+    margin-top: 10px;
+    color: #AAAABE;
+    font-size: 12px;
+}
+
+section .content .card2 .subcard2 .time-date p {
+    margin-top: 10px;
+    color: #AAAABE;
+    font-size: 12px;
+}
+
+section .content .card3 .subcard3 .time-date p {
+    margin-top: 10px;
+    color: #AAAABE;
+    font-size: 12px;
+}
+
+section .content .card1 .subcard1 .values {
+    display: flex;
+    margin-top: 50px;
+}
+
+section .content .card1 .subcard1 .values .paid {
+    margin-left: 100px;
+}
+
+section .content .card1 .subcard1 .values .earning {
+    margin-left: 100px;
+}
+
+
+section .content .card1 .subcard1 .values .register p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card1 .subcard1 .values .register h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card1 .subcard1 .values .paid p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card1 .subcard1 .values .paid h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card1 .subcard1 .values .earning p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card1 .subcard1 .values .earning h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+/* card2 subcard2 */
+
+section .content .card2 .subcard2 .values {
+    display: flex;
+    margin-top: 50px;
+}
+
+section .content .card2 .subcard2 .values .paid {
+    margin-left: 100px;
+}
+
+section .content .card2 .subcard2 .values .earning {
+    margin-left: 100px;
+}
+
+
+section .content .card2 .subcard2 .values .register p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card2 .subcard2 .values .register h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card2 .subcard2 .values .paid p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card2 .subcard2 .values .paid h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card2 .subcard2 .values .earning p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card2 .subcard2 .values .earning h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+/* card3 subcard3 */
+
+section .content .card3 .subcard3 .values {
+    display: flex;
+    margin-top: 50px;
+}
+
+section .content .card3 .subcard3 .values .paid {
+    margin-left: 100px;
+}
+
+section .content .card3 .subcard3 .values .earning {
+    margin-left: 100px;
+}
+
+
+section .content .card3 .subcard3 .values .register p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card3 .subcard3 .values .register h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card3 .subcard3 .values .paid p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card3 .subcard3 .values .paid h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
+}
+
+section .content .card3 .subcard3 .values .earning p {
+    font-size: 14px;
+    color: #728391;
+    font: normal normal bold 14px sans-serif;
+}
+
+section .content .card3 .subcard3 .values .earning h4 {
+    margin-top: 40px;
+    font-size: 25px;
+    color: #1000A9;
 }
