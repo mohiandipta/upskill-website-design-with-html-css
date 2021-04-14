@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+    scroll-behavior: smooth;
+}
+
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 50px;
+    z-index: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.site-header ul {
+    padding-left: 200px;
+    position: relative;
+    display: flex;
+}
+
+.site-header ul li {
+    position: relative;
+    list-style: none;
+}
+
+.site-header ul li a {
+    font-size: 12px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.site-header .logo img {
+    height: 50px;
+}
+
+.site-header .nav-btn button a {
+    text-decoration: none;
+}
+
+.site-header .nav-btn .signin_toggle {
+    margin-right: 20px;
+    border: none;
+}
+
+.site-header .nav-btn .signin_toggle a {
+    text-transform: uppercase;
+    color: #0062FF;
+    background-color: #FFFFFF;
+}
+
+.site-header .nav-btn .signup_toggle {
+    border: none;
+    width: 90px;
+    height: 34px;
+    background: #60D91A 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px #60D91A4D;
+    opacity: 1;
+}
+
+.site-header .nav-btn .signup_toggle a {
+    color: white;
+}
+
+section {
+    padding: 65px 0px;
+    z-index: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+section .login-greetings {
+    width: 900px;
+    height: 570px;
+    background-image: linear-gradient(to right, #F700FF, #8D18DB, #112395);
+    opacity: 85%;
+}
+
+section .login-greetings h1 {
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 140px;
+    margin-right: 140px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+section .login-greetings p {
+    font-size: 10px;
+    margin-top: 15px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #ffffffb2;
+    opacity: 1;
+}
+
+section .login-greetings h4 {
+    font-size: 13px;
+    color: #00F241;
+    text-align: center;
+}
+
+section .login-segment {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    height: 570px;
+}
+
+section .login-segment .login-form {
+    width: fit-content;
+    display: block;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+section .login-segment .login-form h3 {
+    margin-left: 150px;
+    width: 66px;
+    height: 40px;
+}
+
+section .login-segment .login-form .input-email {
+    width: 380px;
+    height: 60px;
+}
+
+section .login-segment .login-form .input-email input {
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #9A9ABE;
+    border-radius: 4px;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+section .login-segment .login-form .input-pw {
+    width: 380px;
+    height: 60px;
+}
+
+section .login-segment .login-form .input-pw input {
+    width: 400px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #9A9ABE;
+    border-radius: 4px;
+}
+
+section .login-segment .forget-pw {
+    margin-left: 20px;
+}
+
+section .login-segment .forget-pw a {
+    padding: 60px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+section .login-segment .forget-pw .forpass {
+    color: #0062FF;
+}
+
+section .login-segment .signin-btn {
+    padding-top: 50px;
+}
+
+section .login-segment .signin-btn button {
+    width: 200px;
+    height: 50px;
+    background: #0062FF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px #2069c959;
+    border: none;
+
+    opacity: 1;
+}
+
+section .login-segment .signin-btn button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+section .login-segment .or p {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+section .login-segment .social-media {
+    margin-top: 20px;
+}
+
+section .login-segment .term-condition {
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+section .login-segment .privacy-policy {
+    margin-top: 5px;
+    font-size: 12px;
+    word-spacing: 3px;
+}
+
+section .login-segment .privacy-policy a {
+    text-decoration: none;
+    color: #0062FF;
+}

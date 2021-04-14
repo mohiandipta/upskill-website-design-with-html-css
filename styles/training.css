@@ -1,0 +1,283 @@
+section {
+    padding: 65px 0px;
+    z-index: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+section .drawer {
+    background-color: #0B2A5A;
+    margin-left: 20px;
+    width: 290px;
+    height: 1381px;
+    margin-top: 20px;
+}
+
+section .drawer .user-details h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+section .drawer .user-details p {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.dashboard .drawer .user-img img {
+    margin-left: 95px;
+    margin-top: 50px;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+section .content {
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 1381px;
+    margin-top: 20px;
+}
+
+section .drawer a {
+    text-decoration: none;
+    text-align: center;
+    color: #9A9ABE;
+}
+
+section .drawer .svg {
+    padding: 100px 30px;
+
+}
+
+section .drawer .svg .Dashboard {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .view {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .create-course {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .my-workshop {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .edit-profile {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .message {
+    margin-bottom: 35px;
+    font-size: 14px;
+}
+
+section .drawer .svg .Dashboard a {
+    margin: 10px;
+}
+
+section .drawer .svg .view a {
+    margin: 10px;
+}
+
+section .drawer .svg .create-course a {
+    margin: 10px;
+}
+
+section .drawer .svg .my-workshop a {
+    margin: 10px;
+}
+
+section .drawer .svg .edit-profile a {
+    margin: 10px;
+}
+
+section .drawer .svg .message a {
+    margin: 10px;
+}
+
+section .content .first {
+    display: flex;
+}
+
+section .content .first .earned {
+    width: 280px;
+    height: 120px;
+    background-color: #6B00BC;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+section .content .first .payment {
+    width: 280px;
+    height: 120px;
+    background-color: #6B00BC;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+section .content .first .workshop {
+    width: 280px;
+    height: 120px;
+    background-color: #6B00BC;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+section .content .first .earned p {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+section .content .first .earned h4 {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+section .content .first .payment p {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+section .content .first .payment h4 {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+section .content .first .workshop p {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+section .content .first .workshop h4 {
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-size: larger;
+}
+
+section .content .second {
+    display: flex;
+    margin-top: 40px;
+}
+
+section .content .second .upcoming button {
+    height: 35px;
+    width: 280px;
+    background: #0062FF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #0062FF4D;
+    opacity: 1;
+    border: none;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+section .content .second .past button {
+    height: 35px;
+    width: 280px;
+    border: none;
+    background-color: #E8ECF1;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+section .content .second .all button {
+    height: 35px;
+    width: 280px;
+    border: none;
+    background-color: #E8ECF1;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+section .content .second .upcoming button a {
+    text-decoration: none;
+    color: white;
+}
+
+section .content .second .past button a {
+    text-decoration: none;
+    color: #728391;
+}
+
+section .content .second .all button a {
+    text-decoration: none;
+    color: #728391;
+}
+
+section .content .card1 {
+    margin-top: 30px;
+    width: 940px;
+    height: 367px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #01368619;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+section .content .card2 {
+    margin-top: 30px;
+    width: 940px;
+    height: 367px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #01368619;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+section .content .card3 {
+    margin-top: 30px;
+    width: 940px;
+    height: 367px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #01368619;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+section .content .card1 img {
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0px 5px 10px #01368619;
+    opacity: 1;
+}
+
+section .content .card2 img {
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0px 5px 10px #01368619;
+    opacity: 1;
+}
+
+section .content .card3 img {
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 25px;
+    box-shadow: 0px 5px 10px #01368619;
+    opacity: 1;
+}
